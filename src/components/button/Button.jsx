@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 
-import './Button.css';
+//import './Button.css';
 
 const Button = ({
   children, onClick, className, disabled, active, invert, ...attrs
@@ -45,7 +45,7 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
-  children: 'Default button',
+  children: 'Press me',
   onClick: () => {},
   className: '',
   disabled: false,

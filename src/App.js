@@ -1,17 +1,13 @@
 import React from 'react';
 import './App.css';
-import Input from './components/input/Input';
-import Button from './components/button/Button'
+
+
+import PersistentDrawerLeft from './components/menu/PersistentDrawerLeft';
 
 function App() {
   return (
     <div className="App">
-      <h1>Chart on React</h1>
-
-      <Input />
-      <Button />
-
-      
+    <PersistentDrawerLeft />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import './Input.css';
+//import './Input.css';
 
 const Input = ({ onChange, value, onKeyPress }) => (
   <div className="inputWrapper">
